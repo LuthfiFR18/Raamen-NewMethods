@@ -87,8 +87,11 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <CodeAnalysisDictionary Include="Views\AddRamen.aspx" />
     <Content Include="Views\Login.aspx" />
+    <Content Include="Views\ManageRamen.aspx" />
     <Content Include="Views\Register.aspx" />
+    <Content Include="Views\UpdateRamen.aspx" />
     <Content Include="Views\ViewAdmin.aspx" />
     <Content Include="Views\Home.aspx" />
     <Content Include="Web.config" />
@@ -137,6 +140,20 @@
     <Compile Include="Repository\RamenRepository.cs" />
     <Compile Include="Repository\RoleRepository.cs" />
     <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Views\AddRamen.aspx.cs">
+      <DependentUpon>AddRamen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\AddRamen.aspx.designer.cs">
+      <DependentUpon>AddRamen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ManageRamen.aspx.cs">
+      <DependentUpon>ManageRamen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ManageRamen.aspx.designer.cs">
+      <DependentUpon>ManageRamen.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -157,6 +174,13 @@
     </Compile>
     <Compile Include="Views\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UpdateRamen.aspx.cs">
+      <DependentUpon>UpdateRamen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\UpdateRamen.aspx.designer.cs">
+      <DependentUpon>UpdateRamen.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\ViewAdmin.aspx.cs">
       <DependentUpon>ViewAdmin.aspx</DependentUpon>
