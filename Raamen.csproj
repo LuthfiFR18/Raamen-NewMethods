@@ -90,7 +90,11 @@
     <CodeAnalysisDictionary Include="Views\AddRamen.aspx" />
     <Content Include="Views\Login.aspx" />
     <Content Include="Views\ManageRamen.aspx" />
+    <Content Include="Views\Profile.aspx" />
     <Content Include="Views\Register.aspx" />
+    <Content Include="Views\TransactionDetail.aspx" />
+    <Content Include="Views\TransactionQueue.aspx" />
+    <Content Include="Views\TransactionsReport.aspx" />
     <Content Include="Views\UpdateRamen.aspx" />
     <Content Include="Views\ViewAdmin.aspx" />
     <Content Include="Views\Home.aspx" />
@@ -154,6 +158,13 @@
     <Compile Include="Views\ManageRamen.aspx.designer.cs">
       <DependentUpon>ManageRamen.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -174,6 +185,27 @@
     </Compile>
     <Compile Include="Views\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TransactionDetail.aspx.cs">
+      <DependentUpon>TransactionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\TransactionDetail.aspx.designer.cs">
+      <DependentUpon>TransactionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TransactionQueue.aspx.cs">
+      <DependentUpon>TransactionQueue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\TransactionQueue.aspx.designer.cs">
+      <DependentUpon>TransactionQueue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TransactionsReport.aspx.cs">
+      <DependentUpon>TransactionsReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\TransactionsReport.aspx.designer.cs">
+      <DependentUpon>TransactionsReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\UpdateRamen.aspx.cs">
       <DependentUpon>UpdateRamen.aspx</DependentUpon>

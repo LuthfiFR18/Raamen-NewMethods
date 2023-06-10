@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Site1.Master" AutoEventWireup="true" CodeBehind="UpdateRamen.aspx.cs" Inherits="Raamen.Views.UpdateRamen" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h1>Update</h1>
+    <br />
      <div>
         <asp:Label ID="Labelitemname" runat="server" Text="Item Name"></asp:Label>
         <br />
