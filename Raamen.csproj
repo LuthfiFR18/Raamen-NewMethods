@@ -90,6 +90,7 @@
     <CodeAnalysisDictionary Include="Views\AddRamen.aspx" />
     <Content Include="Views\Login.aspx" />
     <Content Include="Views\ManageRamen.aspx" />
+    <Content Include="Views\History.aspx" />
     <Content Include="Views\Profile.aspx" />
     <Content Include="Views\Register.aspx" />
     <Content Include="Views\TransactionDetail.aspx" />
@@ -157,6 +158,13 @@
     </Compile>
     <Compile Include="Views\ManageRamen.aspx.designer.cs">
       <DependentUpon>ManageRamen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>

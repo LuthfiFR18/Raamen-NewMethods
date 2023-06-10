@@ -16,7 +16,14 @@
                     <asp:Button ID="LogInbtn" runat="server" Text="Log In" OnClick="LogInbtn_Click"/>
                     <asp:Button ID="RegisterBtn" runat="server" Text="Register" OnClick="RegisterBtn_Click" />
                     <asp:Button ID="LogOutBtn" runat="server" Text="Log Out" OnClick="LogOutBtn_Click" />
-               </div>
+                    <asp:Button ID="ProfileBtn" runat="server" Text="Profile" OnClick="ProfileBtn_Click" />                 
+                    <asp:Button ID="HistoryBtn" runat="server" Text="History" OnClick="HistoryBtn_Click"   />   
+                    <asp:Button ID="HomeBtn" runat="server" Text="Home" OnClick="HomeBtn_Click"   />
+                    <asp:Button ID="ManageRamenBtn" runat="server" Text="Manage Ramen" OnClick="ManageRamenBtn_Click"   />
+                    <asp:Button ID="OrderQueueBtn" runat="server" Text="Order Queue"  />                   
+                    <asp:Button ID="ReportBtn" runat="server" Text="Report"  />
+               </div>     
+                                         
            </nav>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

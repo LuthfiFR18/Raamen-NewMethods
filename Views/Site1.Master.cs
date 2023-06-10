@@ -28,5 +28,25 @@ namespace Raamen.Views
         {
 
         }
+
+        protected void ProfileBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Views/Profile.aspx");
+        }
+
+        protected void HistoryBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Views/History.aspx");
+        }
+
+        protected void HomeBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Views/Home.aspx");
+        }
+
+        protected void ManageRamenBtn_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
